@@ -1,6 +1,6 @@
 <?php
 
-namespace Matris\Components\View\Components\Alert;
+namespace Matris\Components\View\Components\Matris;
 
 use Matris1337\Components\View\Components\Component;
 
