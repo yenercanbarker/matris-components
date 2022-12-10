@@ -2,6 +2,8 @@
 
 namespace Matris\View\Components;
 
+use Matris1337\Components\View\Components\Component;
+
 class Alert extends Component
 {
 	public $message;
