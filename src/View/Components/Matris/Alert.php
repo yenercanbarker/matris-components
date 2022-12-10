@@ -12,4 +12,9 @@ class Alert extends Component
 	{
 		$this->message = $message;
 	}
+
+	public function render()
+	{
+		return view('easy-component::matris.alert');
+	}
 }
