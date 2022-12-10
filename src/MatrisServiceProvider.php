@@ -25,7 +25,7 @@ class MatrisServiceProvider extends ServiceProvider
 	}
 
 	/**
-	 * Register the Blade form components.
+	 * Register the Blade form matris.
 	 *
 	 * @return $this
 	 */
