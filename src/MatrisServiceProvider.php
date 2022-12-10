@@ -1,5 +1,7 @@
 <?php
 
+namespace Matris1337\Components;
+
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
 
