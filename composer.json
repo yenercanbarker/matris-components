@@ -1,0 +1,7 @@
+{
+  "name": "matris1337/easy-component",
+  "description": "Testing",
+  "require": {
+    "php": ">=8.1"
+  }
+}
