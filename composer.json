@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "TomSix\\Components\\": "src"
+      "Matris1337\\Components\\": "src"
     }
   },
   "extra": {

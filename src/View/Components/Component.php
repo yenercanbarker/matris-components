@@ -16,8 +16,6 @@ abstract class Component extends BaseComponent
 
     public function render()
     {
-		dd(1);
-		exit();
         $alias = Str::kebab(class_basename($this));
 
         return view("easy-component::$this->namespace.$alias");
