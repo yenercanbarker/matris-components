@@ -6,14 +6,14 @@ use Illuminate\Support\Facades\Blade;
 class MatrisServiceProvider extends ServiceProvider
 {
 	/** @var string */
-	private const PATH_VIEWS = __DIR__.'/../resources/views';
+	const PATH_VIEWS = __DIR__.'/../resources/views';
 
 	/**
 	 * Bootstrap the application services.
 	 *
 	 * @return void
 	 */
-	public function boot(): void
+	public function boot()
 	{
 		$this->loadViewsFrom(self::PATH_VIEWS, 'easy-component');
 
@@ -27,7 +27,7 @@ class MatrisServiceProvider extends ServiceProvider
 	 *
 	 * @return $this
 	 */
-	private function registerComponents(): self
+	private function registerComponents()
 	{
 		Blade::componentNamespace('TomSix\\Components\\View\\Components\\Matris', 'matris');
 
@@ -39,7 +39,7 @@ class MatrisServiceProvider extends ServiceProvider
 	 *
 	 * @return $this
 	 */
-	public function registerComponentsPublishers(): self
+	public function registerComponentsPublishers()
 	{
 		$this->publishes([
 			self::PATH_VIEWS => resource_path('views/vendor/easy-component'),
