@@ -29,7 +29,7 @@ class MatrisServiceProvider extends ServiceProvider
 	 */
 	private function registerComponents()
 	{
-		Blade::componentNamespace('TomSix\\Components\\View\\Components\\Matris', 'matris');
+		Blade::componentNamespace('Matris1337\\Components\\View\\Components\\Matris', 'matris');
 
 		return $this;
 	}
@@ -46,8 +46,8 @@ class MatrisServiceProvider extends ServiceProvider
 		], 'components');
 
 		$this->publishes([
-			self::PATH_VIEWS . '/form' => resource_path('views/vendor/laravel-components-library/form'),
-		], 'form-components');
+			self::PATH_VIEWS . '/matris' => resource_path('views/vendor/easy-component/matris'),
+		], 'matris-components');
 
 
 		return $this;
